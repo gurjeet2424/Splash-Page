@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    overflow-x: hidden;
+    font-family: 'Roboto','sans-serif';
+    background: linear-gradient(180deg, #fdebeb 0%, #e4faf6 49.91%, #fcede3 94.19%);
+    color:#54575A;
+}
+.wrapper{
+    position: relative;
+    width: 1440px;
+    height:1379px;
+    margin:auto;
+    overflow-x: hidden;
+}
+.title{
+    position: absolute;
+    width: 458px;
+    height: 135px;
+    left: 221px;
+    top: 150px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 68px;
+}
+.text{
+    position: absolute;
+    width: 394px;
+    height: 96px;
+    left: 221px;
+    top: 320px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+.logo{
+    position: absolute;
+    width: 193px;
+    height: 47.64px;
+    left: 221px;
+    top: 50.25px;
+}
+.apple-store-badge{
+    position: absolute;
+    width: 138.44px;
+    height: 46.28px;
+    left: 221px;
+    top: 531px;
+}
+.apple-store-badge img{
+    width: 140.44px;
+    height: 46.28px;
+}
+.google-store-badge{
+    position: absolute;
+    width: 156.19px;
+    height: 46.28px;
+    left: 381.81px;
+    top: 531px;
+}
+.google-store-badge img{
+    width: 156.19px;
+    height: 46.28px;
+}
+.main-image{
+    position: absolute;
+    width: 535.72px;
+    height: 309.27px;
+    left: 670.28px;
+    top: 200.73px;
+}
+.main-image img{
+    height: 411.15px;
+}
+.profile{
+    position: absolute;
+    height: 444px;
+    left: 737px;
+    right: 479px;
+    top: 686px;
+    filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+.product{
+    position: absolute;
+    height: 222px;
+    left: 737px;
+    right: 479px;
+    top: 1157px;
+    filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+.order{
+    position: absolute;
+    height: 470px;
+    left: 479px;
+    right: 737px;
+    top: 913px;
+    filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+.cart{
+    position: absolute;
+    height: 222px;
+    left: 221px;
+    right: 995px;
+    top: 1157px;
+    filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+.home{
+    position: absolute;
+    height: 470px;
+    left: 995px;
+    right: 221px;
+    top: 908px;
+    filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+.background-toggle{
+    position: absolute;
+    right:140px;
+    top:50px;
+    display: flex;
+}
+.background-toggle > div{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px 2px rgba(0,0,0,0.4);
+    margin-right: 10px;
+    cursor:pointer;
+}
+.background-1{
+    background: #DAD299;  
+    background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299); 
+    background: linear-gradient(to right, #B0DAB9, #DAD299); 
+ }
+ .background-2{
+    background: #CC95C0;  
+    background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); 
+    background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);
+}
+.background-3{
+    background: #97f18b;  
+    background: -webkit-linear-gradient(to right, #8cd1d6, #97f18b);  
+    background: linear-gradient(to right, #8cd1d6, #97f18b);
+}
